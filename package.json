@@ -1,0 +1,38 @@
+{
+  "name": "mongo-express-react-node",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToPKekich1/mongo-express-react-node.git"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "mongo",
+    "node"
+  ],
+  "author": "Michail Alekseev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToPKekich1/mongo-express-react-node/issues"
+  },
+  "homepage": "https://github.com/ToPKekich1/mongo-express-react-node#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
