@@ -1,6 +1,10 @@
-const app = require('express')();
+const express = require('express');
+
+const app = express();
 const config = require('config');
 const mongoose = require('mongoose');
+
+app.use(express.json({ extended: true }));
 
 app.use('/api/auth', require('./routes/auth.routes'));
 
